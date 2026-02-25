@@ -27,55 +27,75 @@
     <title>Spicy Restaurant</title>
   </head>
   <body>
-    <header class="bg-[#000000] opacity-80">
+    <header class="bg-[#000000] opacity-80 fixed w-full h-[110px]">
       <div class="max-w-[1600px] mx-auto">
         <div
-          class="flex flex-col md:flex-row justify-between items-center w-[80%] mx-auto py-[25px] gap-10"
+          class="flex flex-row justify-between items-center w-[90%] mx-auto py-[25px] gap-10"
         >
           <div class="flex items-center gap-3 cursor-pointer">
             <img class="h-[50px]" src="images/logo.png" alt="" />
             <h1 class="text-white text-[30px] font-bold">Spicy</h1>
           </div>
-          <div>
-            <ul
-              class="flex flex-col md:flex-row gap-1 md:gap-2 text-center md:text-left"
-            >
+          <div class="hidden md:block">
+            <ul class="flex gap-1 md:gap-2">
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 Home
               </li>
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 About
               </li>
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 Services
               </li>
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 Gallery
               </li>
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 Menu
               </li>
               <li
-                class="text-[#FFFFFF] hover:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
+                class="text-[#FFFFFF] hover:bg-[#990000] active:bg-[#990000] rounded-[10px] p-[15px] cursor-pointer uppercase"
               >
                 Contact
               </li>
             </ul>
           </div>
+          <div class="block md:hidden text-white cursor-pointer">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main class="pt-[110px]">
+      <!-- Banner section -->
+      <section
+        class="max-w-[1600px] mx-auto bg-[url('images/burger.jpg')] bg-cover bg-no-repeat bg-center py-[100px]"
+      >
+        <div class="text-center text-white space-y-7">
+          <h1 class="text-[40px] md:text-[50px] font-bold px-5">
+            We Serve Healthy<br />Tasty Food
+          </h1>
+          <h2 class="text-[20px] md:text-[30px] font-semibold px-5">
+            Hot, Tasty and Spicy
+          </h2>
+          <img
+            class="mx-auto w-[60px] md:w-[70px]"
+            src="images/fork.png"
+            alt=""
+          />
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
