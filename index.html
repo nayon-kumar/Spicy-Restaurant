@@ -422,26 +422,100 @@
         </div>
       </section>
     </main>
-    <footer class="bg-[#292929]">
-      <div class="max-w-[1600px] mx-auto">
-        <div class="text-white">
-          <label for="name">Name</label><br />
-          <input type="text" id="name" placeholder="Enter name" /><br />
+    <footer>
+      <div class="bg-[#292929]/95 py-10 mt-[100px]">
+        <div class="max-w-[1600px] mx-auto">
+          <div
+            class="flex flex-col md:flex-row justify-around items-center gap-10 px-4"
+          >
+            <div class="text-white flex flex-col gap-3 w-full md:w-[400px]">
+              <label for="name">Name</label>
+              <input
+                class="input bg-[#292929] border-white w-full"
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+              />
 
-          <label for="email">Email</label><br />
-          <input type="email" id="email" placeholder="Enter email" /><br />
+              <label for="email">Email</label>
+              <input
+                class="input bg-[#292929] border-white w-full"
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+              />
 
-          <label for="phone">Phone Number</label><br />
-          <input
-            type="text"
-            id="phone"
-            placeholder="Enter phone number"
-          /><br />
+              <label for="phone">Phone Number</label>
+              <input
+                class="input bg-[#292929] border-white w-full"
+                type="text"
+                id="phone"
+                placeholder="Enter your phone number"
+              />
 
-          <label for="message">Your Message</label><br />
-          <textarea placeholder="Enter your message" id="message"></textarea>
+              <label for="message">Your Message</label>
+              <textarea
+                class="input bg-[#292929] border-white w-full"
+                placeholder="Enter your message"
+                id="message"
+              ></textarea>
+              <button
+                class="cursor-pointer bg-[#008000] hover:bg-[#990000] transition-all duration-300 ease-in-out border-gray-300 px-6 py-2 rounded-lg mt-4"
+              >
+                Submit
+              </button>
+            </div>
+            <div class="text-white text-center md:text-left">
+              <div>
+                <h3 class="text-xl font-bold mb-4">Call for Book</h3>
+                <p class="mb-2">01234567890</p>
+                <p>example@gmail.com</p>
+              </div>
+              <div>
+                <h3 class="text-xl font-bold mb-4 mt-8">Location</h3>
+                <p class="mb-2">Mirpur</p>
+                <p>Dhaka, Bangladesh</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div></div>
+      </div>
+      <div class="bg-black py-3">
+        <div class="max-w-[1600px] mx-auto text-white">
+          <div
+            class="flex flex-col md:flex-row items-center justify-between gap-5 max-w-[90%] mx-auto"
+          >
+            <div>
+              <p class="text-center md:text-left">
+                Copyright © Spicy - 2026. All Rights Reserved By Sree Nayon
+                Kumar Pal.
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-facebook"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-twitter"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-linkedin"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-youtube"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-instagram"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-tiktok"
+              ></i>
+              <i
+                class="hover:text-[#008000] transition-all duration-200 cursor-pointer text-xl fa-brands fa-pinterest"
+              ></i>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
